@@ -392,14 +392,11 @@ $( document ).ready(function() {
   var online = window.navigator.onLine;
     if (!online) {
         $('.content').html('Please, no internet connection!');
-        window.reload();
-
     }
     function checkInternet() {
         var online = window.navigator.onLine;
         if (!online) {
             $('.content').html('Please, no internet connection!');
-            window.reload();
         }
     }
 
@@ -407,5 +404,5 @@ $( document ).ready(function() {
 
 
 
-    
+
 });
