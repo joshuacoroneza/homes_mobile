@@ -391,12 +391,12 @@ function get_avail_room(house_id){
 $( document ).ready(function() {
   var online = window.navigator.onLine;
     if (!online) {
-        $('.content').html('Please, no internet connection!');
+        $('.content').html('Please, check your internet connection!');
     }
     function checkInternet() {
         var online = window.navigator.onLine;
         if (!online) {
-            $('.content').html('Please, no internet connection!');
+            $('.content').html('Please, check your internet connection!');
         }
     }
 
